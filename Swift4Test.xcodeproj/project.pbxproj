@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B93BBBEF21FF5C4F00DC4A9E /* SwiftDemo2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftDemo2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D54237F221FED70A0049C358 /* Swift4Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54237F521FED70A0049C358 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D54237F621FED70A0049C358 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		D54237F421FED70A0049C358 /* Swift4Test */ = {
 			isa = PBXGroup;
 			children = (
+				B93BBBEF21FF5C4F00DC4A9E /* SwiftDemo2.playground */,
 				D54237F521FED70A0049C358 /* AppDelegate.h */,
 				D54237F621FED70A0049C358 /* AppDelegate.m */,
 				D54237F821FED70A0049C358 /* ViewController.h */,

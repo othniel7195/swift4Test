@@ -80,3 +80,58 @@ case 3.0:
 default:
     print("no found")
 }
+
+
+let d2 = 55
+switch d2 {
+case 0..<59:
+    print("不及格")
+    print("需要多做练习")
+case 60...80:
+    print("良好")
+case 80...100:
+    print("不错")
+default:
+    print("成绩有问题")
+    
+}
+
+let point = (10,3)
+switch point {
+case (_,0):
+    print("y为0")
+case (0...10,1):
+    print("x在0-10之间")
+case (let x, 2):
+    print("x=\(x)")
+case let(x, y) where x > y:
+    print("x:\(x) > y:\(y)")
+default:
+    print("数据有问题")
+}
+
+for i in 0..<5 {
+    print("idx:\(i)")
+}
+
+//闭区间
+var qujian = 0...10
+//0包含  10 不包含
+//不能把半开半闭区间赋值给 闭区间  也不能把闭区间赋值给半闭半开区间
+var qujian2 = 0..<10
+//小数也支持 只是不能循环
+var qujian3 = 1.1...9.8
+//for i2 in qujian3 {
+//    print("idx:\(i2)")
+//}
+
+var q1 = 10
+while q1 > 0 {
+    q1 -= 1
+    print("while q1 > 0 \(q1)")
+}
+q1 = 10
+repeat {
+    q1 -= 1
+    print("repeat while q1 > 0 \(q1)")
+}while q1 > 0
