@@ -109,3 +109,55 @@ a3 + a4 //相加数组类型要一致
 var s = "1232113"
 //swift 类型转 OC类型 并调用OC方法
 (s as NSString).replacingCharacters(in: NSMakeRange(0, 3), with: "wwww")
+
+//var a6:[AnyObject] = [1,2] 必须是Object
+
+
+var dic1:[AnyHashable:Any] = [1:1,2:4,"4":"8"]
+dic1["1"] = 555
+dic1[1] = 10
+
+dic1.removeValue(forKey: "1")
+dic1
+//这个必须是不可选类型
+let index1 = dic1.index(dic1.startIndex, offsetBy: 1)
+let idx1 = dic1.index(forKey: "4")!
+dic1.remove(at: idx1)
+dic1
+
+
+let tupe1 = (a:1,b:2)
+print(tupe1.a)
+print(tupe1.1)
+let (a,b) = (c:1,d:2)
+print(a)
+
+
+//能赋值nil的是可选类型
+var ss1 = "aaaa"
+//ss1 = nil
+
+//可选类型
+var ss2:String? = "adasd"
+ss2 = nil
+
+var ss3:Optional<String> = "asda"
+ss3 = nil
+
+var ss4:String? = "qqq"
+//有值 true 并且 解绑 赋值   nil false
+if let result = ss4 {
+    print("result:\(result)")
+}
+
+
+//类型转换
+let  v = "QWERTY"
+let result2 = v as String
+
+let result3 = v as? Int
+
+
+//空合类型
+var v2:String? = nil
+let result4 = v2 ?? "zz"
