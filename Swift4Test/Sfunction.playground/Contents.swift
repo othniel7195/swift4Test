@@ -70,3 +70,58 @@ func mutiltest(a: Int, b: Int)->Int{
 
 test9(a: 10, b: 5, method: addtest)
 test9(a: 10, b: 5, method: mutiltest)
+
+func getMethod(a: String)-> (Int, Int) -> Int
+{
+    if a == "add" {
+        return addtest
+    }else{
+        return mutiltest
+    }
+}
+
+var method = getMethod(a: "add")
+var t = method(5, 10)
+
+
+//枚举类型不能用any
+enum type1:String
+{
+    //枚举赋值rawValue 原始值 type1 必须有个原始类型
+    case t1 = "abc"
+    case t2 = "123"
+    case t3 = "tyc"
+}
+
+type1.t1.rawValue
+type1.t2.rawValue
+
+let t5 = type1(rawValue: "123")!
+let t6 = type1(rawValue: "123456")
+
+
+switch (t5){
+case .t1:
+    print("t1")
+case .t2:
+    print("t2")
+case .t3:
+    print("t3")
+    
+default:
+    print("tno")
+    
+}
+
+let t7 = type1.t1
+switch t7 {
+case .t1:
+    print("t1")
+case .t2:
+    print("t2")
+case .t3:
+    print("t3")
+    
+default:
+    print("tno")
+}
