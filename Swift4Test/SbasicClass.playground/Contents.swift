@@ -75,7 +75,7 @@ class Person888{
             return avg4
         }
         set{
-            print("newValue:\(newValue))")
+            print("newValue:\( newValue))")
             avg4 = newValue
         }
     }
@@ -92,3 +92,48 @@ p888.avg2
 
 p888.avg3 = 100.0
 p888.avg3
+
+class Person999 {
+    var name: String = ""
+    var age: Int = 0
+    //监听方法
+    var avg: Double{
+        //willSet 和didSet 在第一初始化时不会进
+        willSet{
+            
+            print("avg newValue:\(newValue)")
+        }
+        didSet{
+            print("avg oldValue:\(oldValue)")
+        }
+    }
+    
+    var avg1: Double{
+        
+        get{
+            return 10
+        }
+        set{
+            newValue
+        }
+    }
+    
+
+    init() {
+        self.avg = 0.0
+    }
+    
+    static func test2(){
+       print("static test2")
+    }
+}
+
+var p999 = Person999()
+p999.avg = 100
+p999.avg
+print(p999.avg)
+
+p999.avg1 = 19
+p999.avg1
+
+Person999.test2()
