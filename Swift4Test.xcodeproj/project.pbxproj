@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		B92FE47222033A560029ABE4 /* skvc.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skvc.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B92FE473220352ED0029ABE4 /* SbasicClass.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SbasicClass.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B9345CCE22049FE6001BACCF /* sblock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sblock.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B93BBBEF21FF5C4F00DC4A9E /* SwiftDemo2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftDemo2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B9D4F56D220210ED00CA6677 /* sclassdemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sclassdemo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D50F060922042F9B00445B84 /* 三大特性.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "三大特性.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -90,6 +91,7 @@
 				D50F060922042F9B00445B84 /* 三大特性.playground */,
 				D50F060A2204391B00445B84 /* sprotocal.playground */,
 				D50F060B22045ABF00445B84 /* SGeneric.playground */,
+				B9345CCE22049FE6001BACCF /* sblock.playground */,
 			);
 			path = Swift4Test;
 			sourceTree = "<group>";

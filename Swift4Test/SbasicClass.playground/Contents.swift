@@ -75,7 +75,7 @@ class Person888{
             return avg4
         }
         set{
-            print("newValue:\( newValue))")
+            print("newValue:\( newValue ?? 0))")
             avg4 = newValue
         }
     }

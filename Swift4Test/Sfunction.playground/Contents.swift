@@ -121,7 +121,4 @@ case .t2:
     print("t2")
 case .t3:
     print("t3")
-    
-default:
-    print("tno")
 }
