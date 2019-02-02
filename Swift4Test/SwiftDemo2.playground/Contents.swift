@@ -39,7 +39,6 @@ var st1 = "😁"
 //str.replaceSubrange(startIndex...midIndex, with: "123456789")
 //str
 
-
 let a1:Array<Int> = [1,2]
 var a2:[Int] = [2,3]
 

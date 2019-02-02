@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50F060E22057B9300445B84 /* 注释.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F060D22057B9300445B84 /* 注释.swift */; };
+		D50F06392205974D00445B84 /* 权限1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F06382205974D00445B84 /* 权限1.swift */; };
+		D50F063B2205976300445B84 /* 权限TEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F063A2205976300445B84 /* 权限TEST.swift */; };
+		D50F065A2205993900445B84 /* TestLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D50F06582205993900445B84 /* TestLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D50F065D2205993900445B84 /* TestLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50F06562205993900445B84 /* TestLib.framework */; };
+		D50F065E2205993900445B84 /* TestLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D50F06562205993900445B84 /* TestLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D50F06642205996D00445B84 /* PublicAndOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F06632205996D00445B84 /* PublicAndOpen.swift */; };
 		D54237F721FED70A0049C358 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D54237F621FED70A0049C358 /* AppDelegate.m */; };
 		D54237FA21FED70A0049C358 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54237F921FED70A0049C358 /* ViewController.m */; };
 		D54237FD21FED70A0049C358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54237FB21FED70A0049C358 /* Main.storyboard */; };
@@ -15,6 +22,30 @@
 		D542380521FED70C0049C358 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D542380421FED70C0049C358 /* main.m */; };
 		D542380E21FEE6A00049C358 /* 溢出测试.swift in Sources */ = {isa = PBXBuildFile; fileRef = D542380D21FEE6A00049C358 /* 溢出测试.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D50F065B2205993900445B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54237EA21FED70A0049C358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50F06552205993900445B84;
+			remoteInfo = TestLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D50F06622205993900445B84 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D50F065E2205993900445B84 /* TestLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B92FE47222033A560029ABE4 /* skvc.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skvc.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -25,6 +56,15 @@
 		D50F060922042F9B00445B84 /* 三大特性.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "三大特性.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D50F060A2204391B00445B84 /* sprotocal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sprotocal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D50F060B22045ABF00445B84 /* SGeneric.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SGeneric.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D50F060C220570A200445B84 /* slazy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = slazy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D50F060D22057B9300445B84 /* 注释.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "注释.swift"; sourceTree = "<group>"; };
+		D50F06382205974D00445B84 /* 权限1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "权限1.swift"; sourceTree = "<group>"; };
+		D50F063A2205976300445B84 /* 权限TEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "权限TEST.swift"; sourceTree = "<group>"; };
+		D50F06562205993900445B84 /* TestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50F06582205993900445B84 /* TestLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
+		D50F06592205993900445B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50F06632205996D00445B84 /* PublicAndOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicAndOpen.swift; sourceTree = "<group>"; };
+		D50F06652205A06100445B84 /* sexception.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sexception.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D50F83AB22003E0F00445B84 /* Sfunction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sfunction.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D54237F221FED70A0049C358 /* Swift4Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54237F521FED70A0049C358 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,20 +82,39 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D54237EF21FED70A0049C358 /* Frameworks */ = {
+		D50F06532205993900445B84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D54237EF21FED70A0049C358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F065D2205993900445B84 /* TestLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D50F06572205993900445B84 /* TestLib */ = {
+			isa = PBXGroup;
+			children = (
+				D50F06582205993900445B84 /* TestLib.h */,
+				D50F06592205993900445B84 /* Info.plist */,
+				D50F06632205996D00445B84 /* PublicAndOpen.swift */,
+			);
+			path = TestLib;
+			sourceTree = "<group>";
+		};
 		D54237E921FED70A0049C358 = {
 			isa = PBXGroup;
 			children = (
 				D54237F421FED70A0049C358 /* Swift4Test */,
+				D50F06572205993900445B84 /* TestLib */,
 				D54237F321FED70A0049C358 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				D54237F221FED70A0049C358 /* Swift4Test.app */,
+				D50F06562205993900445B84 /* TestLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +131,7 @@
 		D54237F421FED70A0049C358 /* Swift4Test */ = {
 			isa = PBXGroup;
 			children = (
+				D50F060D22057B9300445B84 /* 注释.swift */,
 				D50F83AB22003E0F00445B84 /* Sfunction.playground */,
 				B93BBBEF21FF5C4F00DC4A9E /* SwiftDemo2.playground */,
 				D54237F521FED70A0049C358 /* AppDelegate.h */,
@@ -92,13 +153,46 @@
 				D50F060A2204391B00445B84 /* sprotocal.playground */,
 				D50F060B22045ABF00445B84 /* SGeneric.playground */,
 				B9345CCE22049FE6001BACCF /* sblock.playground */,
+				D50F060C220570A200445B84 /* slazy.playground */,
+				D50F06382205974D00445B84 /* 权限1.swift */,
+				D50F063A2205976300445B84 /* 权限TEST.swift */,
+				D50F06652205A06100445B84 /* sexception.playground */,
 			);
 			path = Swift4Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D50F06512205993900445B84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F065A2205993900445B84 /* TestLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		D50F06552205993900445B84 /* TestLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50F065F2205993900445B84 /* Build configuration list for PBXNativeTarget "TestLib" */;
+			buildPhases = (
+				D50F06512205993900445B84 /* Headers */,
+				D50F06522205993900445B84 /* Sources */,
+				D50F06532205993900445B84 /* Frameworks */,
+				D50F06542205993900445B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLib;
+			productName = TestLib;
+			productReference = D50F06562205993900445B84 /* TestLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D54237F121FED70A0049C358 /* Swift4Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D542380821FED70C0049C358 /* Build configuration list for PBXNativeTarget "Swift4Test" */;
@@ -106,10 +200,13 @@
 				D54237EE21FED70A0049C358 /* Sources */,
 				D54237EF21FED70A0049C358 /* Frameworks */,
 				D54237F021FED70A0049C358 /* Resources */,
+				D50F06372205818D00445B84 /* ShellScript */,
+				D50F06622205993900445B84 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D50F065C2205993900445B84 /* PBXTargetDependency */,
 			);
 			name = Swift4Test;
 			productName = Swift4Test;
@@ -125,6 +222,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = zhao.feng;
 				TargetAttributes = {
+					D50F06552205993900445B84 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
 					D54237F121FED70A0049C358 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -145,11 +246,19 @@
 			projectRoot = "";
 			targets = (
 				D54237F121FED70A0049C358 /* Swift4Test */,
+				D50F06552205993900445B84 /* TestLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D50F06542205993900445B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D54237F021FED70A0049C358 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,12 +271,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D50F06372205818D00445B84 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\nTAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		D50F06522205993900445B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F06642205996D00445B84 /* PublicAndOpen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D54237EE21FED70A0049C358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D54237FA21FED70A0049C358 /* ViewController.m in Sources */,
+				D50F060E22057B9300445B84 /* 注释.swift in Sources */,
+				D50F063B2205976300445B84 /* 权限TEST.swift in Sources */,
+				D50F06392205974D00445B84 /* 权限1.swift in Sources */,
 				D542380E21FEE6A00049C358 /* 溢出测试.swift in Sources */,
 				D542380521FED70C0049C358 /* main.m in Sources */,
 				D54237F721FED70A0049C358 /* AppDelegate.m in Sources */,
@@ -175,6 +315,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D50F065C2205993900445B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50F06552205993900445B84 /* TestLib */;
+			targetProxy = D50F065B2205993900445B84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D54237FB21FED70A0049C358 /* Main.storyboard */ = {
@@ -196,6 +344,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D50F06602205993900445B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WGSLCBBG43;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D50F06612205993900445B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WGSLCBBG43;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D542380621FED70C0049C358 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -311,6 +521,7 @@
 		D542380921FED70C0049C358 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -332,6 +543,7 @@
 		D542380A21FED70C0049C358 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -352,6 +564,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D50F065F2205993900445B84 /* Build configuration list for PBXNativeTarget "TestLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50F06602205993900445B84 /* Debug */,
+				D50F06612205993900445B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D54237ED21FED70A0049C358 /* Build configuration list for PBXProject "Swift4Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
