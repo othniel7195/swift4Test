@@ -29,7 +29,7 @@ func readFile(fileP: String) throws -> String {
         throw FileError.ContentNotAviable
     }
     //3.内容为空
-    if content.count == 0 {
+    if content.count <= 1 {
         print("内容为空")
         throw FileError.NoContent
     }
@@ -46,8 +46,8 @@ func testReadFile() {
         return
     }
     
-    //try? 交个处理器处理异常
-    //var content = try? readFile(fileP: url)
+    //try? 交个处理器处理异常 有异常 就变成可选类型 nil
+    var content1 = try? readFile(fileP: url) //nil
     //try! 知道肯定没有异常  ，有的话就会崩溃
     //var content = try! readFile(fileP: url)
     
@@ -74,3 +74,31 @@ func testReadFile() {
 
 
 testReadFile()
+
+
+
+//异常传递
+enum NumError:Error{
+    case NumberError
+}
+func test1() throws -> Int{
+    
+    throw NumError.NumberError
+    return 1
+}
+
+func test2() throws -> Int {
+    
+   return try test1()
+}
+
+func test3(){
+    
+    do {
+        try test2()
+    } catch  {
+        print("error\(error)")
+    }
+}
+
+test3()
