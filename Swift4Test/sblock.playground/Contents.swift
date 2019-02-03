@@ -158,3 +158,23 @@ var pblk: Person? = Person()
 pblk?.test4()
 
 pblk = nil
+
+
+
+
+func testblk22(a: Int, block: @escaping (Int)->()){
+    DispatchQueue.main.async {
+        block(12 + a)
+    }
+}
+
+//会报错  没有@escaping block无法逃逸出当前生命周期
+//func testblk33(a: Int, block: (Int)->()){
+//    DispatchQueue.main.async {
+//        block(12 + a)
+//    }
+//}
+
+testblk22(a: 10) { (b) in
+    print("block22 :\(b)")
+}
