@@ -76,7 +76,7 @@ func testBlock3(num1: Int, num2: Int, block:(Int, Int) -> Int) -> Int {
     return block(num1, num2)
 }
 
-let t4 = testBlock3(num1: 6, num2: 12) { (a, b) -> Int in
+let t4 = testBlock3(num1: 6, num2: 12) { (a, b) in
     return a + b
 }
 

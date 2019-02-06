@@ -75,6 +75,7 @@ a2[0...1]
 a2.max()
 a2.min()
 
+
 //用 Any 支持不同类型
 var a3:[Any] = [1, "2"]
 //个数
@@ -160,3 +161,67 @@ let result3 = v as? Int
 //空合类型
 var v2:String? = nil
 let result4 = v2 ?? "zz"
+
+var vs: String? = "4"
+print(vs!)
+if vs != nil {
+    let vs2 = vs!
+    //(vs2 as? String) + "c"
+    print(vs2 + "c" )
+}
+
+
+if var vs3 = vs {
+    print(vs3 + "d")
+}
+
+
+let a333 = ["2w","8","3","4","5","6","7"]
+var ii = a333.first { (i) -> Bool in
+    return i == "2w"
+}
+print(ii)
+
+let a3331 = ["2w","8","3","4","5","6","7"]
+var ii2 = a3331.first(where: {$0 == "2w"})
+print(ii2)
+
+var ii3 = a333.firstIndex(where: {$0 == "2w"})
+print(ii3)
+
+var ii4 = a333.firstIndex(of: "2w")
+print(ii4)
+var x = Set(arrayLiteral: [1,2,3,4,5])
+let xx = x.filter { (a) -> Bool in
+    return a.count > 2
+}
+
+print(xx)
+var xa = [1,2,3,4,5,6]
+let xmap = xa.map { (a) in
+    
+    return a + 10
+}
+print( xmap)
+
+let xfilter = xa.filter { (a) in
+    return a > 3
+}
+
+print(xfilter)
+
+let xreduce = xa.reduce(0) { (a, b) in
+    
+    return b + a
+}
+print(xreduce)
+
+func xxtest(a: inout Int){
+    
+    a += 1
+}
+
+var ax = 1
+xxtest(a: &ax)
+
+print(ax)

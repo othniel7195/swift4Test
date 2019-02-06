@@ -53,6 +53,7 @@
 		B9345CCE22049FE6001BACCF /* sblock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sblock.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B93BBBEF21FF5C4F00DC4A9E /* SwiftDemo2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftDemo2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B95C3C9A2207033E00D880FD /* splayground高级用法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "splayground高级用法.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B99D43C0220B302600E490CA /* bookProblem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = bookProblem.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B9D4F56D220210ED00CA6677 /* sclassdemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sclassdemo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D50F060922042F9B00445B84 /* 三大特性.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "三大特性.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D50F060A2204391B00445B84 /* sprotocal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sprotocal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -159,6 +160,7 @@
 				D50F063A2205976300445B84 /* 权限TEST.swift */,
 				D50F06652205A06100445B84 /* sexception.playground */,
 				B95C3C9A2207033E00D880FD /* splayground高级用法.playground */,
+				B99D43C0220B302600E490CA /* bookProblem.playground */,
 			);
 			path = Swift4Test;
 			sourceTree = "<group>";
@@ -459,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -512,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -529,6 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGSLCBBG43;
 				INFOPLIST_FILE = Swift4Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,6 +554,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGSLCBBG43;
 				INFOPLIST_FILE = Swift4Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

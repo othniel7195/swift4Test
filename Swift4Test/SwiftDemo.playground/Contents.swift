@@ -135,3 +135,20 @@ repeat {
     q1 -= 1
     print("repeat while q1 > 0 \(q1)")
 }while q1 > 0
+
+
+let code = 200
+switch code {
+case 10, 50:
+    print("<50")
+case let unkownCode where unkownCode < 200:
+    
+    print("unkownCode:\(unkownCode)")
+default:
+    print("default")
+}
+
+
+if case 10...300 = code {
+    print(code)
+}
